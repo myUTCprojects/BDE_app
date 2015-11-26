@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    android:background="@color/black">
+
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="50dp"
+    android:orientation="horizontal"
+    android:background="@color/black"
+    android:layout_marginTop="5dp"
+    android:layout_alignParentBottom="true"
+    android:id="@+id/buttons_bottom">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_alignParentLeft="true">
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@null"
+            android:id="@+id/button_menu"/>
+
+        <ImageView android:id="@+id/image_menu"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/button_menu"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/text_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:text="1"
+            android:textSize="15dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:alpha="0.5"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_alignParentLeft="true">
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@null"
+            android:id="@+id/button_accueil"/>
+
+        <ImageView android:id="@+id/image_accueil"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/button_accueil"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/image_accueil"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:text="2"
+            android:textSize="15dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:alpha="0.5"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_alignParentLeft="true">
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@null"
+            android:id="@+id/button_recherche"/>
+
+        <ImageView android:id="@+id/image_recherche"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/button_recherche"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/text_recherche"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:text="3"
+            android:textSize="15dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:alpha="0.5"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
+
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:id="@+id/llFrag"
+    android:weightSum="5"
+    android:layout_above="@+id/buttons_bottom">
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/fragment_container1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="4"/>
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/fragment_container2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"/>
+
+</LinearLayout>
+
+
+</RelativeLayout>

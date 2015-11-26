@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BDE App</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="ipadress">http://192.168.1.57/BDEapi/</string>
+</resources>
