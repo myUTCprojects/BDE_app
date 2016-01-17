@@ -1,8 +1,18 @@
 <resources>
     <string name="app_name">BDE App</string>
+    <string name="package_name">bdeapp.baptisteamato.bdeapp</string>
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
 
-    <string name="ipadress">http://192.168.1.57/BDEapi/</string>
+    <string name="liste_assos">http://assos.utc.fr/asso/json</string>
+    <string name="liste_evenements_asso1">http://assos.utc.fr/asso/events/</string>
+    <string name="liste_evenements_asso2">/json</string>
+    <string name="liste_assos_utilisateur1">http://assos.utc.fr/abonnement/</string>
+    <string name="liste_assos_utilisateur2">/json</string>
+
+
+
+
+
 </resources>

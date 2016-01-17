@@ -27,18 +27,22 @@ public class ConnectionPage extends Activity {
         password = (EditText) findViewById(R.id.conn_pwd);
         connection = (Button) findViewById(R.id.conn_button);
 
+        Intent intentSelection = new Intent(ConnectionPage.this, MainActivity.class);
+        startActivity(intentSelection);
+        finish();
+
         connection.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-                if (login.getText().toString().equals("amatobap"))
+                /*if (login.getText().toString().equals("amatobap"))
                 {
                     Intent intentSelection = new Intent(ConnectionPage.this, MainActivity.class);
                     startActivity(intentSelection);
                     finish();
                 } else {
                     Toast.makeText(getApplicationContext(), "Connexion échouée", Toast.LENGTH_SHORT).show();
-                }
+                }*/
 
             }
         });

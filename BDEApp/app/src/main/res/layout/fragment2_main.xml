@@ -3,13 +3,21 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
+    <RelativeLayout
         android:layout_width="fill_parent"
-        android:layout_height="80dp"
-        android:textColor="@color/white"
-        android:textSize="25dp"
-        android:gravity="center_horizontal"
-        android:background="@color/black"/>
+        android:layout_height="60dp"
+        android:background="@color/dark_grey">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:text=""
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+
 
     <LinearLayout
         android:layout_width="fill_parent"
@@ -21,7 +29,14 @@
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:layout_weight="1"
-            android:background="@color/beige">
+            android:id="@+id/rl_mes_assos"
+            android:background="@color/water_light_green">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/mes_assos"
+                android:layout_centerInParent="true"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -29,9 +44,9 @@
                 android:text="Mes assos"
                 android:textSize="22dp"
                 android:textColor="@color/white"
-                android:layout_marginTop="50dp"
                 android:layout_centerHorizontal="true"
-                android:layout_centerInParent="true"/>
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="30dp"/>
 
             <Button
                 android:id="@+id/mesAssos"
@@ -45,7 +60,14 @@
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:layout_weight="1"
-            android:background="@color/gris_fonce">
+            android:id="@+id/rl_mes_evenements"
+            android:background="@color/water_dark_green">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/mes_evenements"
+                android:layout_centerInParent="true"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -54,7 +76,9 @@
                 android:textSize="22dp"
                 android:layout_marginTop="80dp"
                 android:textColor="@color/white"
-                android:layout_centerInParent="true"/>
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="30dp"/>
 
             <Button
                 android:id="@+id/mesEvenements"
@@ -78,7 +102,14 @@
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:layout_weight="1"
-            android:background="@color/gris_fonce">
+            android:id="@+id/rl_ajouter_asso"
+            android:background="@color/water_dark_green">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ajouter_asso"
+                android:layout_centerInParent="true"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -87,7 +118,9 @@
                 android:textSize="22dp"
                 android:textColor="@color/white"
                 android:layout_marginTop="50dp"
-                android:layout_centerInParent="true"/>
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="30dp"/>
 
             <Button
                 android:id="@+id/ajouterAsso"
@@ -101,7 +134,14 @@
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:layout_weight="1"
-            android:background="@color/beige">
+            android:id="@+id/rl_ajouter_evenement"
+            android:background="@color/water_light_green">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ajouter_evenement"
+                android:layout_centerInParent="true"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -110,7 +150,9 @@
                 android:textSize="22dp"
                 android:textColor="@color/white"
                 android:layout_marginTop="80dp"
-                android:layout_centerInParent="true"/>
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="30dp"/>
 
             <Button
                 android:id="@+id/choisirAsso"

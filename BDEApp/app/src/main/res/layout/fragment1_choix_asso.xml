@@ -39,7 +39,7 @@
                 android:text="Par pôle"
                 android:gravity="center_vertical|center_horizontal"
                 android:background="@color/white"
-                android:textColor="@color/gris_fonce"
+                android:textColor="@color/dark_grey"
                 android:layout_margin="15dp"/>
 
             <Button
@@ -61,7 +61,7 @@
                 android:layout_height="fill_parent"
                 android:text="Par nom"
                 android:gravity="center_vertical|center_horizontal"
-                android:textColor="@color/gris_fonce"
+                android:textColor="@color/dark_grey"
                 android:layout_margin="15dp"/>
 
             <Button

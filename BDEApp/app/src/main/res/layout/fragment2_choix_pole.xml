@@ -36,10 +36,10 @@
                 android:layout_marginBottom="2dp"/>
 
             <ImageView
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:layout_centerInParent="true"
-                android:src="@drawable/logo_pvdc"/>
+                android:id="@+id/img_pvdc"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_centerInParent="true"/>
 
             <Button
                 android:id="@+id/pvdc"
@@ -66,10 +66,10 @@
                 android:layout_marginBottom="2dp"/>
 
             <ImageView
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:layout_centerInParent="true"
-                android:src="@drawable/logo_pae"/>
+                android:id="@+id/img_pae"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_centerInParent="true"/>
 
             <Button
                 android:id="@+id/pae"
@@ -106,10 +106,10 @@
                 android:layout_marginBottom="2dp"/>
 
             <ImageView
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:layout_centerInParent="true"
-                android:src="@drawable/logo_psec"/>
+                android:id="@+id/img_psec"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_centerInParent="true"/>
 
             <Button
                 android:id="@+id/psec"
@@ -136,10 +136,10 @@
                 android:layout_marginBottom="2dp"/>
 
             <ImageView
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:layout_centerInParent="true"
-                android:src="@drawable/logo_pte"/>
+                android:id="@+id/img_pte"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_centerInParent="true"/>
 
             <Button
                 android:id="@+id/pte"

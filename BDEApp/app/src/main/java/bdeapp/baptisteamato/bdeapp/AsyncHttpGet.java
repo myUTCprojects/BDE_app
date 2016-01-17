@@ -32,15 +32,10 @@ public class AsyncHttpGet extends AsyncTask<String, String, String> {
 
         try {
             URL url = new URL(serverUrl[0]);    // ici, serverURL[0] est l'URL de connexion
-            Log.d("url", serverUrl[0]);
             HttpURLConnection urlConn = (HttpURLConnection) url.openConnection();
-            //set timeout to 3 seconds
-            urlConn.setConnectTimeout(5000);
-            urlConn.setReadTimeout(5000);
-            urlConn.setRequestProperty ("Authorization-englishUTC", "mySecretCode");
             urlConn.connect();
             int responseCode = urlConn.getResponseCode();
-            Log.d("responseCode",Integer.toString(responseCode));
+            //Log.d("responseCode",Integer.toString(responseCode));
             if (responseCode == 200) {
                 reader = new BufferedReader(new InputStreamReader(urlConn.getInputStream()));
                 stringBuilder = new StringBuilder();

@@ -9,7 +9,19 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@color/black"
-        android:textSize="30dp"
+        android:textStyle="bold"
+        android:text=""
+        android:textSize="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
         android:layout_centerVertical="true"/>
+
+    <ImageView
+        android:id="@+id/image_clic_asso"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="50dp"/>
 
 </RelativeLayout>

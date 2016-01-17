@@ -20,8 +20,13 @@
         android:id="@+id/listviewNomAsso"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:isScrollContainer="false"
-        android:background="@color/white" />
+        android:background="@color/white"
+        android:listSelector="@android:color/transparent"
+        android:scrollbarThumbVertical="@drawable/scroll_bar_thumb"
+        android:scrollbarTrackVertical="@drawable/scroll_bar_track"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbarSize="0dp"
+        android:fastScrollAlwaysVisible="true"/>
 
 
 
